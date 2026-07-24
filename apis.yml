@@ -1,8 +1,27 @@
 aid: brumby
 name: Brumby
-description: Brumby is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Brumby (formerly GrazeMate) is a Y Combinator-backed (W2026) precision-grazing
+  company based in Sydney, Australia, building an autonomous drone toolkit for cattle
+  ranchers. Brumby drones plan routes and move herds with gentle, AI-guided pressure,
+  fly scheduled monitoring missions that locate and count every animal, measure standing
+  dry-matter pasture biomass from the air, and inspect water troughs, tanks and fences
+  on every flight — all managed from a single phone app that works online or in a local
+  base-station mode without connectivity. The company is running pilot programs and does
+  not yet publish a public API, developer portal, or documentation; this profile is a
+  company lead maintained in the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/brumby/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://brumby.com/assets/media/hero-poster.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +30,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Agriculture
+- Precision Agriculture
+- Livestock
+- Cattle
+- Drones
+- Robotics
+- Artificial Intelligence
+- Remote Sensing
+- Y Combinator
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://brumby.com/
+- type: Blog
+  url: https://brumby.com/blog/
+- type: PrivacyPolicy
+  url: https://brumby.com/privacy-policy.html
+- type: Support
+  url: https://brumby.com/contact.html
+- type: LinkedIn
+  url: https://www.linkedin.com/company/brumbyhq
+- type: Facebook
+  url: https://www.facebook.com/profile.php?id=61582429381197
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
